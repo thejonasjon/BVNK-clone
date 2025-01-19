@@ -1,0 +1,21 @@
+@media screen and (max-width:1024px) {
+    .sco {
+        width: 600px;
+    }
+    .oge {
+        margin-left: 73%;
+    }
+    #anita {
+        width: 605px;
+    }
+    .henry {
+        font-size: 0.8rem;
+    }
+    #matt {
+        width: 605px;
+    }
+    #matts {
+        width: 605px;
+    }
+   
+}

@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{font-size: 72.5%;
+font-family: helvetica;}
+:root{--display:flex;
+--direction:row;
+--direction1:column;
+--jc:space-around;
+--jc1:center;
+--jc2:space-between;
+--hide:none;
+--reveal:block;
+--color:rgb(13, 13, 70)}
+footer{display: var(--display);
+flex-direction: var(--direction1);
+background-color: #041636;}
+nav{display: var(--display);
+    position: fixed;
+    width:100vw;
+    top:0;
+flex-direction: var(--direction);
+justify-content: var(--jc2);
+padding:2rem;
+margin-top:auto;
+}
+#logo{flex-grow: 4;
+margin-left:2vw;}
+.dropdownlinks{display: var(--display);
+    justify-content: var(--jc);
+flex-direction: var(--direction);
+flex-grow: 1;
+}
+nav li,nav ul{list-style-type:var(--hide);
+display:var(--hide);
+font-size: 1rem;
+font-weight: 300;
+text-align: left;
+color:var(--color);
+}
+li{list-style-type:var(--hide);}
+#link{margin-top: 100vh;}
+nav a{text-decoration: var(--hide);
+    font-size:1.5rem;
+    font-weight: 700;
+    color: var(--color);
+}
+li a{font-size: 1.5rem;
+    font-weight: 400;
+    text-align: left;}
+nav ul{border-radius: 12px;
+    background-color: white;
+    padding:1.5rem;
+    z-index: 1;
+    text-align: left;
+    box-shadow: 2px 2px 4px #1a1919;
+    min-height: 20vh;
+    min-width: 15vw;
+}
+nav button,footer button{color:white;
+background-color: dodgerblue;
+font-weight: 700;
+border: none;
+padding:1.5rem;
+border-radius: 12px;}
+#dropdownlink:hover a{transition:transform 0.3s ease-in-out;
+border-bottom-color: dodgerblue;}
+/*The styling that bring about the dropdown*/
+#dropdownlink:hover ul{display:var(--reveal);}
+i:active ul{display:var(--reveal);}
+i:active li{display:var(--reveal);}
+#dropdownlink:hover li{display:var(--reveal);}
+i{color:rgb(5, 5, 65);
+    font-weight: 200;
+   /* cursor: pointer;
+    transition: transform 0.3s ease-in-out;*/
+}
+#dropdownlink:hover i{transform:rotate(180deg);}
+
+/*footer*/
+footer{min-height: 60vh;
+padding:3rem;
+}
+footer h4{font-size: 1.5rem;
+color:white;}
+.nav-links a{color: white;
+text-decoration: var(--hide);
+margin-top: 3vh;
+font-weight: 100;
+}
+form a{color:white;}
+
+footer,footer ul,.nav-links{display:block;
+display: var(--display);
+flex-direction: var(--direction1);}
+footer span,form,#socials,.footer-links{
+    display: var(--display);
+    flex-direction: var(--direction);
+}
+footer h5{color:white;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+font-size: 1rem;}
+#socials{gap:2vh;}
+footer input{background-color: transparent;
+border:1px solid white;
+border-radius: 10px;
+min-width:20vw;
+padding:1rem;}
+
+.footer-links{justify-content: var(--jc);}
+footer p{color:white;
+margin-top: 5vh;}
+.subscribe,.footer-content{margin-left: 5vw;}
+footer form{margin-bottom: 10vh;
+margin-top: 5vh;}
+.brand{
+    margin-bottom: 5vh;
+}
+

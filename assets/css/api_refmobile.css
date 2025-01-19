@@ -1,0 +1,26 @@
+@media screen and (max-width:500px) {
+    nav ul {
+        display: none;
+    }
+    #four{
+        display: none;
+    }
+    #cee {
+        width: 100%;
+        margin-left: 1.5rem;
+    }
+    .sky {
+        font-size: 1.6rem;
+    }
+    .money {
+        font-size: 0.8rem;
+    }
+    .tata {
+        width: 400px;
+        height:400px ;
+    }
+    .veee {
+        margin-left: 20rem;
+    }
+}
+  

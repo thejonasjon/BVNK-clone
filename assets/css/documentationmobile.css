@@ -1,0 +1,18 @@
+@media screen and (max-width:500px) {
+    #dumber {
+        display:none ;
+    }
+    nav ul {
+        display: none;
+    }
+    #four {
+display: none;
+    }
+   #dumbest {
+    width: 100%;
+   }
+ 
+.eleven {
+    margin-left: 13rem;
+}
+}

@@ -1,0 +1,1571 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+:root {
+    --blue: #2c6ff2;
+    --darkblue: #062259;
+    --darkestblue: #041536;
+    --lightwheat: #faf7f3;
+}
+
+.b-btn {
+    border-radius: 0.8rem;
+}
+
+.b-btn-primary {
+    background-color: var(--blue);
+    color: white;
+    border: none;
+    transition-duration: .2s;
+}
+
+.b-btn-md {
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 2.4rem;
+    padding: 1rem 1.5rem;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Circular, Inter, sans-serif;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.banner {
+    background-color: white;
+    height: 15vh;
+    width: 100%;
+    z-index: 1;
+}
+
+.bannerinner {
+    display: flex;
+    width: 97vw;
+    height: 14vh;
+    margin: auto;
+    padding-top: 2.5vh;
+    z-index: 2;
+    position: sticky;
+    justify-content: space-between;
+}
+
+.logobox {
+    margin-left:1vw;
+    margin-top: 1.6vh;
+}
+
+.logo {
+    height: 4.8vh;
+    color: black;
+}
+
+nav {
+    width: 60%;
+    justify-content: space-between;
+    display: flex;
+    margin-right: -30vw;
+}
+
+.navbox {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: right;
+    width: 45vw;
+}
+
+.dropbtn {
+    background-color: white;
+    color: var(--darkblue);
+    padding: 16px;
+    font-size: 2.6vh;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+}
+
+.dropbtn:hover {
+    background-color: white;
+    color: var(--darkblue);
+    padding: 16px;
+    cursor: pointer;
+    opacity: 0.7;
+    text-decoration: 2px solid underline va;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 20vw;
+    height: auto;
+    padding: 1.1rem;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 2rem;
+}
+
+.dropdown-content a {
+    color: #122231;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    color: var(--blue);
+}
+
+.dropdown:hover .dropdown-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: white;
+}
+
+a.Alink-nav:link, a.Alink-nav:visited {
+    color: var(--darkblue);
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2.5vh;
+    font-weight: 700;
+}
+
+a.Alink-nav:hover, a.Alink-nav:active {
+    color: var(--blue);
+}
+
+.login-button {
+    display: inline-block;
+    height: 4vh;
+    margin-top: 2.7vh;
+}
+
+a.Alink-login:link, a.Alink-login:visited {
+    color: var(--darkblue);
+    text-decoration: none;
+    font-size: 2.6vh;
+    font-weight: 700;
+}
+
+a.Alink-login:hover, a.Alink-login:active {
+    opacity: 0.7;
+    text-decoration: 2px solid underline var(--blue);
+}
+
+.contact-button {
+    display: block;
+    width: 11vw;
+    margin-top: 0.8vh;
+}
+
+a.Alink-contact:link, a.Alink-contact:visited {
+    background-color: var(--blue);
+    color: white;
+    padding: 1.2rem 1.8rem;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2.6vh;
+    font-weight: 700;
+    border-radius: 0.75rem;
+}
+
+a.Alink-contact:hover, a.Alink-contact:active {
+    background-color: #193d85;
+    color:white;
+}
+
+.iconsbox {
+    width: 2vw;
+    display: inline;
+}
+
+.barsicon {
+    display: none;
+}
+
+.fa-solid {
+    color: var(--darkblue);
+    font-size: 1.4rem;
+}
+
+header {
+    background-image: url("66794629ec9ffa00883eaa5b_Green-Purple\ -\ B.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    width: 100%;
+    height: 130vh;
+    background-position: center;
+}
+
+.headercontainer {
+    display: flex;
+}
+
+.headertextbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 60%;
+    height: 77vh;
+    margin-top: 23vh;
+    margin-left: 2vw;
+}
+
+.headertexts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 51vh;
+}
+
+.h1box {
+    width: calc(100% - 4vw);
+}
+
+h1 {
+    color:var(--darkblue);
+    font-size: 10vh;
+}
+
+.phtbox {
+    width: calc(100% - 20vw);
+}
+
+.pht {
+    color: var(--darkblue);
+    font-size: 3vh;
+    font-weight: 500;
+}
+
+.header-buttons {
+    display: flex;
+    width: calc(100% - 22.5vw);
+    justify-content: space-between;
+}
+
+a.Alink-expert1:link, a.Alink-expert1:visited {
+    background-color: var(--blue);
+    color: white;
+    width: 18.8vw;
+    height: 11vh;
+    padding: 1.8rem 1.8rem;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 3vh;
+    font-weight: 700;
+    border-radius: 0.75rem;
+    text-align: center;
+}
+
+a.Alink-expert1:hover, a.Alink-expert1:active {
+    background-color: #193d85;
+    color:white;
+}
+
+a.Alink-build:link, a.Alink-build:visited {
+    background-color: white;
+    color: var(--darkblue);
+    width: 16vw;
+    height: 11vh;
+    padding: 1.8rem 1.8rem;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 3.1vh;
+    font-weight: 700;
+    border: 1px solid var(--darkblue);
+    border-radius: 0.75rem;
+    text-align: center;
+}
+
+a.Alink-build:hover, a.Alink-build:active {
+    background-color: white;
+    color:var(--blue);
+    border: 1px solid var(--blue);
+}
+
+.headerimagebox {
+    position: relative;
+}
+
+.image1hib {
+    position: absolute;
+    z-index: 1;
+    top: 32vh;
+}
+
+.img1hib {
+    width: 37.5vw;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    padding: 3.6rem;
+    background-color: rgba(255, 255, 255, 0.82);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.image2hib {
+    position: absolute;
+    z-index: 0;
+    border-radius: 2rem;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    top: 71vh;
+    left: -7.7vw;
+}
+
+.img2hib {
+    width: 28vw;
+}
+
+.section1 {
+    background-color: var(--lightwheat);
+    height: 84vh;
+}
+
+.containers1 {
+    margin: auto;
+    width: 95%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 10vh;
+}
+
+.headings1 {
+    margin: auto;
+}
+
+.hhs1 {
+    font-size: 6.6vh;
+    color: var(--darkblue);
+    text-align: center;
+}
+
+.statbox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stat1, .stat2, .stat3, .stat4 {
+    width: 20vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.figure {
+    font-size: 10vh;
+    color: var(--darkblue);
+    text-align: center;
+}
+
+.label {
+    font-size: 2.8vh;
+    color: black;
+    text-align: center;
+}
+
+.subcontainers1 {
+    border-top: 1px solid #b3b3b3;
+    border-bottom: 1px solid #b3b3b3;
+    width: 100%;
+    height: 12vh;
+    margin-top: 12.5vh;
+    visibility: visible; /* figure out how to hide until this div is scrolled */
+}
+
+.buttonboxscs1 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 61vw;
+    margin: auto;
+    margin-top: 2.8vh;
+}
+
+.buttonscs1 {
+    border: none;
+}
+
+a.Alink-send-payments:link, a.Alink-send-payments:visited {
+    background-color: var(--lightwheat);
+    color: var(--darkblue);
+    width: 13.3vw;
+    height: 6vh;
+    padding: 0.88rem 1.8rem;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2.4vh;
+    font-weight: 700;
+    border: 0.5px solid var(--darkblue);
+    border-radius: 0.75rem;
+    text-align: center;
+}
+
+a.Alink-send-payments:active {
+    background-color: var(--blue);
+    color:white;
+}
+
+a.Alink-send-payments:hover {
+    color:var(--blue);
+    border: 0.5px solid var(--blue);
+}
+
+a.Alink-accept-payments:link, a.Alink-accept-payments:visited {
+    background-color: var(--lightwheat);
+    color: var(--darkblue);
+    width: 13.3vw;
+    height: 6vh;
+    padding: 0.88rem 1.8rem;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2.4vh;
+    font-weight: 700;
+    border: 0.5px solid var(--darkblue);
+    border-radius: 0.75rem;
+    text-align: center;
+}
+
+a.Alink-accept-payments:active {
+    background-color: var(--blue);
+    color:white;
+}
+
+a.Alink-accept-payments:hover {
+    color:var(--blue);
+    border: 0.5px solid var(--blue);
+}
+
+a.Alink-store-and-convert:link, a.Alink-store-and-convert:visited {
+    background-color: var(--lightwheat);
+    color: var(--darkblue);
+    width: 13.3vw;
+    height: 6vh;
+    padding: 0.88rem 1.8rem;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2.4vh;
+    font-weight: 700;
+    border: 0.5px solid var(--darkblue);
+    border-radius: 0.75rem;
+    text-align: center;
+}
+
+a.Alink-store-and-convert:active {
+    background-color: var(--blue);
+    color:white;
+}
+
+a.Alink-store-and-convert:hover {
+    color:var(--blue);
+    border: 0.5px solid var(--blue);
+}
+
+a.Alink-launch-stablecoins:link, a.Alink-launch-stablecoins:visited {
+    background-color: var(--lightwheat);
+    color: var(--darkblue);
+    width: 17.7vw;
+    height: 6vh;
+    padding: 0.88rem 1.8rem;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2.4vh;
+    font-weight: 700;
+    border: 0.5px solid var(--darkblue);
+    border-radius: 0.75rem;
+    text-align: center;
+}
+
+a.Alink-launch-stablecoins:active {
+    background-color: var(--blue);
+    color:white;
+}
+
+a.Alink-launch-stablecoins:hover {
+    color:var(--blue);
+    border: 0.5px solid var(--blue);
+}
+
+/* send payments here */
+
+#send-payments {
+    background-color: white;
+    width: 100%;
+    height: 170vh;
+}
+
+.containersp {
+    width: calc(100% - 5vw);
+    height: 90vh;
+    margin: auto;
+    margin-top: 18vh;
+    display: flex;
+}
+
+.textbox-csp {
+    width: 40.2vw;
+    height: 88.8vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.headingboxcsp {
+    width: 40vw;
+    height: 20vh;
+}
+
+.hhbcsp {
+    font-size: 6.66vh;
+    color: var(--darkblue);
+}
+
+.phbcsp {
+    font-size: 2.78vh;
+    color: var(--darkblue);
+    font-weight: 500;
+    line-height: 4vh;
+}
+
+.listboxcsp {
+    width: 35vw;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 8vh;
+}
+
+.lbcsp1, .lbcsp2, .lbcsp3 {
+    width: 30vw;
+    height: 18vh;
+    display: flex;
+}
+
+.iconlistbox {
+    margin-right: 2vh;
+}
+
+.textlistbox {
+    display: flex;
+    flex-direction: column;
+}
+
+.htlb {
+    font-size: 2.5vh;
+    color: var(--darkblue);
+    padding-top: 0.55vh;
+}
+
+.ptlb {
+    font-size: 2.4vh;
+    color: var(--darkblue);
+    font-weight: 500;
+    line-height: 3.5vh;
+}
+
+.imagebox-csp {
+    display: inline;
+}
+
+.sendpaymentsimage {
+    width: 30vw;
+    height: 35vh;
+    margin-top: 50vh;
+    margin-left: 15vw;
+}
+
+.scrollbox-csp {
+    width: 50vw;
+    height: 60vh;
+    margin-top: 15vh;
+}
+
+.sbnavbox-sp {
+    display: flex;
+    background-color: var(--lightwheat);
+    border: 1px solid #b3b3b3;
+    margin-bottom: 4vh;
+    border-radius: 10px;
+    width: 50vw;
+    height: 8vh
+}
+
+a.Alink-scroll:link, a.Alink-scroll:visited {
+    color: var(--darkblue);
+    width: 13vw;
+    height: 6vh;
+    padding: 1.4rem 0.9rem;
+    margin-left: -0.5vw;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2.5vh;
+    font-weight: 700;
+    text-align: center;
+}
+
+a.Alink-scroll:active {
+    color:var(--blue);
+}
+
+a.Alink-scroll:hover {
+    color:var(--blue);
+}
+
+.sbnavboxcontent {
+    display: inline;
+}
+
+.digicurrimg {
+    width: 50vw;
+}
+
+.infobox-csp {
+    display: flex;
+    width: 48vw;
+    border: 1px solid #b3b3b3;
+    border-radius: 10px;
+    margin-top: 20vh;
+}
+
+.imagebox-ibcsp {
+    margin: auto;
+    margin-left: -0.1vw;
+    padding: 2.6rem;
+    border-right: 1px solid #b3b3b3;
+}
+
+.imgibcsp {
+    width: 7.7vw;
+}
+
+.textbox-ibcsp {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 35vw;
+    height: 23vh;
+    padding: 2rem;
+    margin: auto;
+}
+
+.ptbibcsp {
+    color: var(--darkblue);
+    font-size: 2.7vh;
+    font-weight: 700;
+    line-height: 4vh;
+    letter-spacing: 0.5px;
+}
+
+a.Alink-casestudy:link, a.Alink-casestudy:visited {
+    color: var(--blue);
+    text-decoration: none;
+    font-size: 2.4vh;
+    font-weight: 700;
+}
+
+a.Alink-casestudy:hover, a.Alink-casestudy:active {
+    color: var(--blue);
+}
+
+/* accept payments here */
+
+#accept-payments {
+    background-color: white;
+    width: 100%;
+    height: 200vh;
+}
+
+.containerap {
+    width: calc(100% - 5vw);
+    height: 90vh;
+    margin: auto;
+    margin-top: 18vh;
+    display: flex;
+}
+
+.textbox-cap {
+    width: 48vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.headingboxcap {
+    width: 48vw;
+    height: 20vh;
+}
+
+.hhbcap {
+    font-size: 6.66vh;
+    color: var(--darkblue);
+}
+
+.phbcap {
+    font-size: 2.78vh;
+    color: var(--darkblue);
+    font-weight: 500;
+    line-height: 4vh;
+}
+
+.listboxcap {
+    width: 36vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 13vh;
+}
+
+.lbcap1, .lbcap2, .lbcap3 {
+    width: 30vw;
+    height: 24vh;
+    display: flex;
+}
+
+.iconlistbox {
+    margin-right: 2vh;
+}
+
+.textlistbox {
+    display: flex;
+    flex-direction: column;
+}
+
+.htlb {
+    font-size: 2.5vh;
+    color: var(--darkblue);
+    padding-top: 0.55vh;
+}
+
+.ptlb {
+    font-size: 2.4vh;
+    color: var(--darkblue);
+    font-weight: 500;
+    line-height: 3.5vh;
+}
+
+.imagebox-cap {
+    display: inline;
+}
+
+.acceptpaymentsimage {
+    width: 30vw;
+    height: 35vh;
+    margin-top: 50vh;
+    margin-left: 15vw;
+}
+
+.scrollbox-cap {
+    width: 50vw;
+    height: 60vh;
+    margin-top: 10vh;
+}
+
+.sbnavbox-ap {
+    display: flex;
+    background-color: var(--lightwheat);
+    border: 1px solid #b3b3b3;
+    margin-bottom: 4vh;
+    border-radius: 10px;
+    width: 22.8vw;
+    height: 8vh
+}
+
+a.Alink-scroll:link, a.Alink-scroll:visited {
+    color: var(--darkblue);
+    width: 13vw;
+    height: 6vh;
+    padding: 1.4rem 0.9rem;
+    margin-left: -0.5vw;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2.5vh;
+    font-weight: 700;
+    text-align: center;
+}
+
+a.Alink-scroll:active {
+    color:var(--blue);
+}
+
+a.Alink-scroll:hover {
+    color:var(--blue);
+}
+
+.sbnavboxcontent {
+    display: inline;
+}
+
+.digicurrimg {
+    width: 50vw;
+}
+
+.infobox-cap {
+    display: flex;
+    width: 48vw;
+    border: 1px solid #b3b3b3;
+    border-radius: 10px;
+    margin-top: 20vh;
+}
+
+.imagebox-ibcap {
+    margin: auto;
+    margin-left: -0.1vw;
+    padding: 2.6rem;
+    border-right: 1px solid #b3b3b3;
+}
+
+.imgibcap {
+    width: 7.7vw;
+}
+
+.textbox-ibcap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 35vw;
+    height: 23vh;
+    padding: 2rem;
+    margin: auto;
+}
+
+.ptbibcap {
+    color: var(--darkblue);
+    font-size: 2.7vh;
+    font-weight: 700;
+    line-height: 4vh;
+    letter-spacing: 0.5px;
+}
+
+a.Alink-casestudy:link, a.Alink-casestudy:visited {
+    color: var(--blue);
+    text-decoration: none;
+    font-size: 2.4vh;
+    font-weight: 700;
+}
+
+a.Alink-casestudy:hover, a.Alink-casestudy:active {
+    color: var(--blue);
+}
+
+/* store and convert here */
+
+#storeconvert {
+    background-color: white;
+    width: 100%;
+    height: 200vh;
+}
+
+.containersc {
+    width: calc(100% - 5vw);
+    height: 90vh;
+    margin: auto;
+    margin-top: 18vh;
+    display: flex;
+}
+
+.textbox-csc {
+    width: 40.2vw;
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.headingboxcsc {
+    width: 50vw;
+    height: 20vh;
+}
+
+.hhbcsc {
+    font-size: 6.66vh;
+    color: var(--darkblue);
+}
+
+.phbcsc {
+    font-size: 2.78vh;
+    color: var(--darkblue);
+    font-weight: 500;
+    line-height: 4vh;
+}
+
+.listboxcsc {
+    width: 36vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 16.6vh;
+}
+
+.lbcsc1, .lbcsc2, .lbcsc3 {
+    width: 30vw;
+    height: 24vh;
+    display: flex;
+}
+
+.iconlistbox {
+    margin-right: 2vh;
+}
+
+.textlistbox {
+    display: flex;
+    flex-direction: column;
+}
+
+.htlb {
+    font-size: 2.5vh;
+    color: var(--darkblue);
+    padding-top: 0.55vh;
+}
+
+.ptlb {
+    font-size: 2.4vh;
+    color: var(--darkblue);
+    font-weight: 500;
+    line-height: 3.5vh;
+}
+
+.imagebox-csc {
+    display: inline;
+}
+
+.storeconvertimage {
+    width: 30vw;
+    height: 35vh;
+    margin-top: 50vh;
+    margin-left: 15vw;
+}
+
+.scrollbox-csc {
+    width: 50vw;
+    height: 60vh;
+    margin-top: 10vh;
+}
+
+.sbnavbox-sc {
+    display: flex;
+    background-color: var(--lightwheat);
+    border: 1px solid #b3b3b3;
+    margin-bottom: 4vh;
+    border-radius: 10px;
+    width: 24vw;
+    height: 8vh
+}
+
+a.Alink-scroll:link, a.Alink-scroll:visited {
+    color: var(--darkblue);
+    width: 13vw;
+    height: 6vh;
+    padding: 1.4rem 0.9rem;
+    margin-left: -0.5vw;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2.5vh;
+    font-weight: 700;
+    text-align: center;
+}
+
+a.Alink-scroll:active {
+    color:var(--blue);
+}
+
+a.Alink-scroll:hover {
+    color:var(--blue);
+}
+
+.sbnavboxcontent {
+    display: inline;
+}
+
+.digicurrimg {
+    width: 50vw;
+}
+
+.infobox-csc {
+    display: flex;
+    width: 48vw;
+    border: 1px solid #b3b3b3;
+    border-radius: 10px;
+    margin-top: 20vh;
+}
+
+.imagebox-ibcsc {
+    margin: auto;
+    margin-left: -0.1vw;
+    padding: 2.6rem;
+    border-right: 1px solid #b3b3b3;
+}
+
+.imgibcsc {
+    width: 7.7vw;
+}
+
+.textbox-ibcsc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 35vw;
+    height: 23vh;
+    padding: 2rem;
+    margin: auto;
+}
+
+.ptbibcsc {
+    color: var(--darkblue);
+    font-size: 2.7vh;
+    font-weight: 700;
+    line-height: 4vh;
+    letter-spacing: 0.5px;
+}
+
+a.Alink-casestudy:link, a.Alink-casestudy:visited {
+    color: var(--blue);
+    text-decoration: none;
+    font-size: 2.4vh;
+    font-weight: 700;
+}
+
+a.Alink-casestudy:hover, a.Alink-casestudy:active {
+    color: var(--blue);
+}
+
+/* stablecoin wallets here */
+
+#stablecoinwallets {
+    background-color: white;
+    width: 100%;
+    height: 135vh;
+}
+
+.containerscw {
+    width: calc(100% - 5vw);
+    height: 90vh;
+    margin: auto;
+    margin-top: 18vh;
+    display: flex;
+}
+
+.textbox-cscw {
+    width: 40.2vw;
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.headingboxcscw {
+    width: 50vw;
+    height: 20vh;
+}
+
+.hhbcscw {
+    font-size: 6.66vh;
+    color: var(--darkblue);
+}
+
+.phbcscw {
+    font-size: 2.78vh;
+    color: var(--darkblue);
+    font-weight: 500;
+    line-height: 4vh;
+}
+
+.listboxcscw {
+    width: 36vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 10vh;
+}
+
+.lbcscw1, .lbcscw2, .lbcscw3 {
+    width: 30vw;
+    height: 24vh;
+    display: flex;
+}
+
+.iconlistbox {
+    margin-right: 2vh;
+}
+
+.textlistbox {
+    display: flex;
+    flex-direction: column;
+}
+
+.htlb {
+    font-size: 2.5vh;
+    color: var(--darkblue);
+    padding-top: 0.55vh;
+}
+
+.ptlb {
+    font-size: 2.4vh;
+    color: var(--darkblue);
+    font-weight: 500;
+    line-height: 3.5vh;
+}
+
+.imagebox-cscw {
+    display: inline;
+}
+
+.stablecoinwalletimage {
+    width: 30vw;
+    height: 65vh;
+    margin-top: 15vh;
+    margin-left: 15vw;
+}
+
+.infobox-cscw {
+    display: flex;
+    width: 48vw;
+    border: 1px solid #b3b3b3;
+    border-radius: 10px;
+    margin-top: 10vh;
+}
+
+.imagebox-ibcscw {
+    margin: auto;
+    margin-left: -0.1vw;
+    padding: 2.6rem;
+    border-right: 1px solid #b3b3b3;
+}
+
+.imgibcscw {
+    width: 7.7vw;
+}
+
+.textbox-ibcscw {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 35vw;
+    height: 23vh;
+    padding: 2rem;
+    margin: auto;
+}
+
+.ptbibcscw {
+    color: var(--darkblue);
+    font-size: 2.7vh;
+    font-weight: 700;
+    line-height: 4vh;
+    letter-spacing: 0.5px;
+}
+
+a.Alink-casestudy:link, a.Alink-casestudy:visited {
+    color: var(--blue);
+    text-decoration: none;
+    font-size: 2.4vh;
+    font-weight: 700;
+}
+
+a.Alink-casestudy:hover, a.Alink-casestudy:active {
+    color: var(--blue);
+}
+
+/* my faqs */
+
+.faqs {
+    background-color: white;
+    width: 100%;
+    height: 95vh;
+}
+
+.faqheading {
+    width: 50vw;
+    margin:auto;
+}
+
+.hfaqh {
+    font-size: 6.66vh;
+    color: var(--darkblue);
+    text-align: center;
+}
+
+.containerfaqs {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 20vw);
+    margin: auto;
+    margin-top: 10vh;
+}
+
+.faq1, .faq2, .faq3, .faq4 {
+    background-color: white;
+    border-bottom: 1px solid #b3b3b3;
+    display: flex;
+    width: 80vw !important;
+    height: 15vh;
+    padding-top: 5vh;
+    align-content: space-between;
+    justify-content: space-between;
+}
+
+.pfaq {
+    color: var(--darkblue);
+    font-size: 3.5vh;
+    font-weight: 500;
+    display: block;
+}
+
+.fa-plus {
+    color: var(--blue);
+    text-align: right;
+    font-size: 5vh;
+    font-weight: 100;
+    display: block;
+}
+
+/* Jonas's faqs code */
+
+/* FAQ
+
+.faq {
+    width: 100vw;
+    padding: 12rem 0;
+}
+
+.faq-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.faq-cont .heading {
+    margin-bottom: 6rem;
+}
+
+.faq-cont .content {
+    width: 70vw;
+    max-width: 70%;
+}
+
+.faq-block {
+    position: relative;
+    border-bottom: 1px solid var(--grey-light-1);
+    padding: 2rem 0;
+    transition: padding .3s, transform .3s;
+}
+
+.faq-block .question{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1.5rem;
+}
+
+.faq-block .question h5{
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 2.9rem;
+    color: var(--main-color-1);
+}
+
+.faq-block .question .material-symbols-outlined {
+    font-size: 4rem;
+    font-weight: 200;
+    color: var(--primary-1);
+}
+
+.faq-block .answer p{
+    padding: 0 1.5rem;
+}
+
+.faq-block .answer p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+    color: var(--main-color-10);
+}
+
+.faq-cont .answer{
+    position: absolute;
+    display: none;
+}
+
+.faq-block:hover{
+    border: none;
+    margin-bottom: 6rem;
+}
+
+.faq-block:hover .question .material-symbols-outlined {
+    transform: rotate(45deg);
+}
+
+.faq-block:hover .answer {
+    display: block;
+}
+
+*/
+
+
+/* get started here */
+
+.getstarted {
+    background-image: url('66793f4a5f6c20d245be68a9_Blue-Green-B.webp');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 60vh;
+    padding-top: 16vh;
+}
+
+.getstartedbox {
+    display: flex;
+    width: 94vw;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.textbox-gsb {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30vw;
+    height: 25vh;
+}
+
+.ptb-gsb {
+    color: var(--darkblue);
+    font-size: 2.6vh;
+    font-weight: 800;
+    letter-spacing: 0.3vh;
+}
+
+.htb-gsb {
+    font-size: 7vh;
+    color: var(--darkblue);
+}
+
+.fa-user {
+    color: var(--darkblue);
+    font-size: 4vh;
+    z-index: 3;
+    display: inline;
+    margin-top: 3vh;
+}
+
+#speaktoexpert {
+    background-color: rgba(240, 243, 243, 0.393);
+    border-radius: 1.8rem;
+    font-size: 4vh;
+    color: var(--darkblue) !important;
+    border: none;
+    width: 38vw;
+    height: 15vh;
+    box-shadow: 2px 7px 30px 2px var(--darkblue);
+    padding-left: 9vh;
+    z-index: 2;
+    display: inline;
+    margin-left: -3.6vw;
+}
+
+#speaktoexpert:hover {
+    background-color: var(--blue);
+    border-radius: 1.8rem;
+    font-size: 4vh;
+    color: white !important;
+    border: none;
+    width: 38vw;
+    height: 15vh;
+    box-shadow: 2px 7px 30px 2px var(--blue);
+    z-index: 2;
+    display: inline;
+}
+
+.buttonbox-ibgsb {
+    position: absolute;
+    display: inline-block;
+    margin-left: 31vw;
+    margin-top: -12vh;
+}
+
+.buttonbox-ibgsb:hover {
+    position: absolute;
+    display: inline-block;
+}
+
+a.Alink-expert2:link, a.Alink-expert2:visited {
+    background-color: rgba(255, 255, 255, 0.34);
+    width: 4vw;
+    height: 9vh;
+    border-radius: 1rem;
+    padding-left: 1.1vw;
+    padding-top: 2.6vh;
+}
+
+a.Alink-expert2:hover, a.Alink-expert2:active {
+    background-color: rgba(255, 255, 255, 0.605);
+    width: 4vw;
+    height: 9vh;
+    border-radius: 1rem;
+}
+
+.toexpertarrow {
+    color: var(--darkblue);
+    font-size: 15vh;
+    z-index: 2;
+}
+
+.toexpertarrow:hover {
+    color: white;
+    font-size: 15vh;
+}
+
+/* Footer */
+
+footer {
+    background-color:var(--darkestblue);
+    width: 100%;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+}
+
+.footer-cont {
+    width: calc(100% - 5vw);
+    margin: auto;
+}
+
+.footer-cont .top .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-right: 10rem;
+}
+
+.footer-cont .top .nav-links h4 {
+    font-size: 1.7rem;
+    font-weight: 700;
+    line-height: 2.5rem;
+    color: #e0e5ff;
+}
+
+.footer-cont .top .nav-links ul a {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 2.2rem;
+    color: #fbfcfe;
+    transition: opacity 0.3s;
+    list-style-type: none;
+}
+
+.footer-cont .top .nav-links ul a:hover {
+    opacity: 0.6;
+}
+
+.footerli {
+    margin-top: 1.5rem;
+    list-style-type: none !important;
+}
+
+.footer-cont .middle {
+    margin-top: 10rem;
+}
+
+.text1 {
+    width: 30vw;
+}
+
+.footer-cont .middle .text1 h5 {
+    font-size: 1.7rem;
+    font-weight: 700;
+    line-height: 2.5rem;
+    color: #e0e5ff;
+}
+
+.footer-cont .middle .text1 p {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.5rem;
+    color: #e0e5ff;
+    margin: 2rem 0;
+}
+
+.footer-cont .middle .text1 .social {
+    margin: 1rem 0 2rem 0;
+}
+
+.footer-cont .middle .text1 .social a {
+    margin: 0 1rem 0 0;
+    transition: opacity .3s;
+}
+
+.footer-cont .middle .text1 .social a:hover{
+    opacity: .6;
+}
+
+.footer-cont .middle .subscribe form {
+    display: flex;
+    gap: 1rem;
+}
+
+.footer-cont .middle .subscribe input{
+    width: 31rem;
+    padding: 1.2rem 0 1.2rem 1rem;
+    border: 1px solid #fbfcfe;
+    border-radius: .5rem;
+    background-color: transparent;
+    color: #fff;
+}
+
+.footer-cont .middle .subscribe input:focus{
+    border: 1px solid #0b3c9c;
+    outline: none;
+}
+
+.footer-cont .middle .subscribe input::placeholder {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.2rem;
+    color: white;
+}
+
+.footer-cont .bottom .brand{
+    margin: 5rem 0 3rem 0;
+}
+
+.footer-cont .bottom .text2 p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.6rem;
+    color: #e0e5ff;
+}
+
+.footer-cont .bottom .text2 p:last-child {
+    font-size: 1rem;
+    margin-top: 2rem;
+}
+
+.footer-cont .bottom .text2 p a{
+    text-decoration: underline;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6rem;
+    color: #e0e5ff;
+}
+
+

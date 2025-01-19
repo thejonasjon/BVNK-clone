@@ -1,0 +1,115 @@
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Noto Sans", sans-serif;
+}
+nav ul {
+    background-color: #062259;
+    display: flex;
+    height: 3.4rem;
+    list-style-type: none;
+    align-items: center;
+}
+li {
+    padding-left: 1.5rem;
+}
+.one {
+    color: white;
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+.two {
+    color: white;
+}
+.two {
+    color: white;
+}
+#three {
+    height: 1px;
+    background-color: black;
+}
+#four {
+    background-color: #062259;
+    display: flex;
+    height: 3.2rem;
+    list-style-type: none;
+    align-items: center;
+}
+button {
+    background-color: #062259;
+    padding: 7px;
+    border-radius: 0.5rem;
+}
+#aah {
+    display: flex;
+    justify-content: space-around;
+    height: 20rem;
+    background-color: rgb(255, 255, 255);
+}
+#bee {
+    padding-top: 1rem;
+    margin-left: 1rem;
+}
+#cee {
+    flex-grow: 2;
+    padding-top: 1rem;
+    margin-left: 5rem;
+}
+#thief{
+    padding: 2px;
+    padding-top: 1rem;
+    margin-right: 3rem;
+}
+.moon {
+    color: rgb(79, 90, 102);
+    font-size: 1rem;
+    font-weight: bold;
+}
+.fish {
+    color: rgb(79, 90, 102);
+    font-weight: normal;
+    font-size: 0.9rem;
+text-decoration: none;
+}
+.sky {
+    font-size: 2.1rem;
+    font-weight: bold;
+    color: rgb(56, 66, 72);
+}
+.money {
+    font-size: 1rem;
+    font-weight: normal;
+    color: rgb(56, 66, 72);
+    
+}
+.monk {
+    color: rgb(79, 90, 102);opacity: 0.1;
+}
+
+.dog {
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: white;
+    padding: 2px;
+    background-color: #FF6C37;
+    border-radius: 1px;
+    text-decoration: none;
+}
+.big {
+    font-size: 1rem;
+    color: blue;
+}
+.vee {
+    margin-top: 3rem;
+    color: rgb(56, 66, 72);
+    font-size: 1rem;
+}
+.veee {
+    color: rgb(56, 66, 72);
+    font-size: 1rem;
+    margin-left: 34rem;
+}

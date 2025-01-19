@@ -1,0 +1,44 @@
+# Project Guide
+    This project is an opportunity to challenge our self and push beyond the scope of norms.
+    As a team will follow below project struecture as instructed by Mentor to help us have
+    a smooth collaboration.
+    To ensure smooth collaboration, let's follow a few guidelines:
+
+## Project Overview
+    Project Name: BVNK
+    Webapp URL: https://www.bvnk.com/
+
+    What They Do:
+        BVNK is a payments platform designed for businesses that want to integrate digital currencies into their operations.
+        They provide solutions that bridge the gap between traditional finance and cryptocurrencies, allowing companies to
+        manage treasury, payments, yield, and foreign exchange across both fiat and digital currencies.
+
+## Folder Structure
+### 1. assets/*
+   - The css/ folder will contain all our CSS files for styling the web pages. We will use this to maintain a clean separation between our HTML structure and CSS styling.
+   - The images/ images used in the project, like logos, banners, or icons, should be stored here. This should keep our project to be organized.
+
+### 2. components/
+   - header.html and footer.html here we will have our footer and header as small unite we can reuse accross different pages.
+
+### 3. pages/*
+   In the pages folder we have different pages of our project. Each page can be further divided into specific pages:
+   - developers/, platform/, resources/, use_cases/
+
+### 4. index.html
+   - The index.html is the main landing page of our project. It will serve as the entry point to the site.
+
+## Working Together
+To ensure smooth collaboration, let's follow a few guidelines:
+- **Commit often**: Make small, frequent commits to the repository so that everyone stays updated.
+- **Use comments**: Please comment your code, especially in shared files, so that others can understand your changes easily.
+- **Follow the structure**: Place your files in the appropriate folders to maintain order and avoid conflicts.
+
+## Contributors
+    - Jonas
+    - Akpofure
+    - Sussan
+    - Iyanuoluwa
+    - David
+
+Good luck, and let's build something amazing together! TEAM 2

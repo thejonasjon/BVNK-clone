@@ -1,0 +1,29 @@
+@media screen and (max-width:500px) {
+    .sco {
+        width: 350px;
+        height: 100px;
+    }
+    .oge {
+        margin-left: 69%;
+    }
+    #anita {
+        width: 22rem;
+        height: 130px;
+        margin-left: 10%;
+    }
+    .henry {
+        font-size: 0.7rem;
+        margin-left: 1.8rem;
+    }
+    #matt {
+        width: 22rem;
+        margin-left: 10%;
+    }
+    #matts {
+        width: 22rem;
+        margin-left: 10%;
+    }
+    .ann {
+        font-size: 1rem;
+    }
+}

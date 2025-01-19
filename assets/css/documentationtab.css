@@ -1,0 +1,17 @@
+@media screen and (max-width:1024px) {
+    #dumber {
+        min-width: 25%;
+    }
+    .seven {
+        font-size: 1.9rem;
+    }
+    .nine {
+        font-size: 0.8rem;
+    }
+    .ten {
+        font-size: 0.9rem;
+    }
+    .eleven {
+        font-size: 0.9rem;
+    }
+}

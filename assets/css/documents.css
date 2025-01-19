@@ -1,0 +1,96 @@
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Noto Sans", sans-serif;
+}
+nav ul {
+    background-color: #062259;
+    display: flex;
+    height: 3.4rem;
+    list-style-type: none;
+    align-items: center;
+}
+li {
+    padding-left: 1.5rem;
+}
+.one {
+    color: white;
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+.two {
+    color: white;
+}
+#three {
+    height: 1px;
+    background-color: black;
+}
+#four {
+    background-color: #062259;
+    display: flex;
+    height: 3.2rem;
+    list-style-type: none;
+    align-items: center;
+}
+button {
+    background-color: #062259;
+    padding: 5px;
+    border-radius: 0.5rem;
+}
+#dumb {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+}
+#dumber {
+    padding-top: 1rem;
+    margin-left: 1rem;
+  overflow-y: scroll;
+}
+
+#dumbest {
+    flex-grow: 3;
+    padding-top: 1rem;
+    margin-left: 2rem;
+}
+
+
+.six {
+  font-size: 1rem;
+  font-weight: bold;
+  color: rgb(79, 90, 102);
+}
+.five {
+    font-size: 0.9rem;
+    font-weight: normal;
+    color: rgb(79, 90, 102);
+    text-decoration: none;
+}
+.seven {
+    font-size: 2.1rem;
+    font-weight: bold;
+    color: rgb(79, 90, 102);
+}
+.eight {
+    color: rgb(79, 90, 102);opacity: 0.1;
+}
+.nine {
+    color: rgb(79, 90, 102);
+    font-weight: normal;
+  font-size: 0.9rem;
+}
+.ten {
+    color: rgb(79, 90, 102);
+    font-size: 1rem;
+    font-weight: bold;
+}
+.eleven {
+    color: rgb(79, 90, 102);
+    font-size: 1rem;
+    font-weight: bold;
+    margin-left: 29rem;
+}
